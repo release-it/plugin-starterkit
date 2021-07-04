@@ -20,7 +20,7 @@
   "homepage": "https://github.com/my/awesome-plugin#readme",
   "bugs": "https://github.com/my/awesome-plugin/issues",
   "author": "",
-  "peerDpendencies": {
+  "peerDependencies": {
     "release-it": "^14.0.2"
   },
   "devDependencies": {
