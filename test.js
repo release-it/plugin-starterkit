@@ -1,5 +1,5 @@
 const test = require('bron');
-const assert = require('assert');
+const assert = require('assert').strict;
 const { factory, runTasks } = require('release-it/test/util');
 const Plugin = require('.');
 
