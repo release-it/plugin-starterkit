@@ -5,7 +5,7 @@ const Plugin = require('.');
 
 const namespace = 'my-plugin';
 
-test('should not throw', async t => {
+test('should not throw', async () => {
   const options = { [namespace]: {} };
   const plugin = factory(Plugin, { namespace, options });
   await assert.doesNotReject(runTasks(plugin));
