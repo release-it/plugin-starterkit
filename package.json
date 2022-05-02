@@ -21,15 +21,14 @@
   "bugs": "https://github.com/my/awesome-plugin/issues",
   "author": "",
   "peerDependencies": {
-    "release-it": "^14.10.0"
+    "release-it": "^15.0.0"
   },
   "devDependencies": {
-    "bron": "^1.1.1",
-    "release-it": "^14.10.0",
-    "sinon": "^11.1.1"
+    "bron": "^2.0.3",
+    "release-it": "^15.0.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "release-it": {
     "hooks": {
