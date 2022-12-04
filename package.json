@@ -21,12 +21,13 @@
   "homepage": "https://github.com/my/awesome-plugin#readme",
   "bugs": "https://github.com/my/awesome-plugin/issues",
   "author": "",
-  "peerDependencies": {
-    "release-it": "^15.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "bron": "^2.0.3",
-    "release-it": "^15.0.0"
+    "release-it": "^15.2.0"
+  },
+  "peerDependencies": {
+    "release-it": "^15.2.0"
   },
   "engines": {
     "node": ">=14"
