@@ -1,7 +1,7 @@
-const test = require('bron');
-const assert = require('assert').strict;
-const { factory, runTasks } = require('release-it/test/util');
-const Plugin = require('.');
+import test from 'bron';
+import assert from 'assert/strict';
+import { factory, runTasks } from 'release-it/test/util/index.js';
+import Plugin from './index.js';
 
 const namespace = 'my-plugin';
 

@@ -1,5 +1,5 @@
-const { Plugin } = require('release-it');
+import { Plugin } from 'release-it';
 
 class MyPlugin extends Plugin {}
 
-module.exports = MyPlugin;
+export default MyPlugin;

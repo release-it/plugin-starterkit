@@ -2,7 +2,8 @@
   "name": "my-plugin",
   "version": "0.0.0",
   "description": "My plugin for release-it",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "test": "bron test.js",
     "release": "release-it"
