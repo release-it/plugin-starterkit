@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "My plugin for release-it",
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "test": "bron test.js",
     "release": "release-it"
