@@ -24,7 +24,8 @@
   "dependencies": {},
   "devDependencies": {
     "bron": "^2.0.3",
-    "release-it": "^15.2.0"
+    "release-it": "^15.2.0",
+    "sinon": "^13.0.2"
   },
   "peerDependencies": {
     "release-it": "^15.2.0"
