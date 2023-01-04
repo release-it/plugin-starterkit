@@ -28,13 +28,13 @@
   "devDependencies": {
     "bron": "^2.0.3",
     "release-it": "^15.2.0",
-    "sinon": "^13.0.2"
+    "sinon": "^15.0.1"
   },
   "peerDependencies": {
     "release-it": "^15.2.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=14.9"
   },
   "release-it": {
     "hooks": {
